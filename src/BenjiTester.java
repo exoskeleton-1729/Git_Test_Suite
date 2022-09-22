@@ -11,7 +11,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class Benjitester {
+class BenjiTester {
 	@BeforeAll
 	static void setUpBeforeClass() throws IOException{
         Path p = Paths.get("junit.txt");
