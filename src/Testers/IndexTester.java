@@ -47,8 +47,9 @@ class IndexTester {
 	@Test
 	void testAdd() throws IOException, NoSuchAlgorithmException {
 		Index i = new Index();
-		i.add("junit.txt");
-		File file = new File("objects/b34bcfc4d490f93ed9cf4e560c608b58cd688c24");
+		i.initialize();
+		i.add("bar.txt");
+		File file = new File("objects/af727e4deee39aead170e830c61b9c2844a3d75b");
 		assertTrue(file.exists());
 	}
 	

@@ -27,14 +27,14 @@ class BlobTester {
 
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
-		File f = new File("junit.txt");
-		f.delete();
+//		File f = new File("junit.txt");
+//		f.delete();
 	}
 
 	@Test
 	void test() throws NoSuchAlgorithmException, IOException {
 		Blob b = new Blob("junit.txt");
-		File file  = new File("objects/b34bcfc4d490f93ed9cf4e560c608b58cd688c24");
+		File file  = new File("./objects/" + b.getSha1());
 		assertTrue(file.exists());
 	}
 

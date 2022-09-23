@@ -13,7 +13,7 @@ import org.junit.platform.suite.api.SuiteDisplayName;
 
 @Suite
 @SuiteDisplayName("Git Project Tester")
-@SelectPackages("testers")
+@SelectPackages("Testers")
 @IncludeClassNamePatterns(".*Tester")
 class AllTests {
     
