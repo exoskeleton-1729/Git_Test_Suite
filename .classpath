@@ -6,6 +6,24 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-jupiter-5.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-jupiter-api-5.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-jupiter-engine-5.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-jupiter-migrationsupport-5.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-jupiter-params-5.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-commons-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-console-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-console-standalone-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-engine-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-jfr-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-launcher-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-reporting-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-runner-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-suite-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-suite-api-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-suite-commons-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-suite-engine-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-platform-testkit-1.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/greyscale/eclipse-workspace-2/Git_Test_Suite/Jars/junit-vintage-engine-5.9.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
