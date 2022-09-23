@@ -9,6 +9,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class Tree {
 	ArrayList <String> list;
+	ArrayList <String> iHateJUnit = new ArrayList<String>();
 	String s;
 	
 	public Tree(ArrayList<String> l) throws NoSuchAlgorithmException, IOException {
@@ -18,11 +19,23 @@ public class Tree {
 		writeToFile(s);
 	}
 	
+	public void iHateJUnitMethod()
+	{
+		for(int i = 0; i < list.size(); i++)
+		{
+			iHateJUnit.add("i.txt");
+			iHateJUnit.add("hate.txt");
+			iHateJUnit.add("junit.txt");
+			iHateJUnit.add("so.txt");
+			iHateJUnit.add("much.txt");
+		}
+	}
 	
 	public String listToString() {
+		iHateJUnitMethod();
 		String temp = "";
 		for (int i = 0; i < list.size(); i++) {
-			temp+= list.get(i) + "\n";
+			temp+= list.get(i) + " " +  iHateJUnit.get(i) + "\n";
 		}
 		return temp;
 	}
@@ -79,6 +92,7 @@ public class Tree {
 			listy.add("tree : e7d79898d3342fd15daf6ec36f4cb095b52fd976");
 			Tree tree = new Tree(listy);
 			File file = new File("objects/dd4840f48a74c1f97437b515101c66834b59b1be");
+			System.out.println(tree.listToString());
 	 }
 	 
 	
